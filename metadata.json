@@ -1,0 +1,6 @@
+{
+  "name": "Project Kick-off Email Generator",
+  "description": "A full-stack web application for project managers to capture project details, select products, specify integrations, communication preferences, and stakeholders, and generate a tailored kick-off email with Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
