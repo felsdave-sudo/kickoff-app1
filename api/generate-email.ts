@@ -76,11 +76,6 @@ export default async function handler(req: any, res: any) {
 
 // ADD THIS EXACT LINE
   console.log("Incoming Data Payload:", JSON.stringify(req.body, null, 2));
-
-  try {
-    const {
-      projectName,
-// ...
   
   try {
     const {
