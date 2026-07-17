@@ -23,7 +23,7 @@ function getGeminiClient(): GoogleGenAI {
 
 // Fallback logic preserved exactly from your original implementation
 async function generateContentWithFallback(ai: GoogleGenAI, params: any) {
-  const modelsToTry = ["gemini-2.5-flash", "gemini-1.5-flash", "gemini-1.5-flash-8b"]; // Updated fallback list for stability
+  const modelsToTry = ["gemini-3.5-flash", "gemini-flash-latest", "gemini-3.1-flash-lite"]; // Updated fallback list for stability
   let lastError: any = null;
 
   for (const model of modelsToTry) {
